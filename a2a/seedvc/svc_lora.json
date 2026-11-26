@@ -1,0 +1,18 @@
+{
+  "format": "seedvc-sample-v1",
+  "variant": "svc",
+  "sample_rate": 44100,
+  "hop_length": 512,
+  "content_encoder": "openai/whisper-small",
+  "source_mel_frames": 2427,
+  "tensor_files": [
+    "source/svc.safetensors",
+    "reference/shan_yi_chun.safetensors"
+  ],
+  "source_audio": "source/svc.flac",
+  "reference_audio": "reference/shan_yi_chun.flac",
+  "source_provenance": "source/Wiz Khalifa,Charlie Puth - See You Again [vocals]_[cut_28sec].wav",
+  "reference_provenance": "shan_yi_chun/reference.wav",
+  "reference_speaker": "Shan Yichun",
+  "reference_source_sha256": "1051d61c89d9c2e147029b2821b96f4a425180ef52a533a613ac332f25f53168"
+}

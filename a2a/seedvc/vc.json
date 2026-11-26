@@ -1,0 +1,16 @@
+{
+  "format": "seedvc-sample-v1",
+  "variant": "vc",
+  "sample_rate": 22050,
+  "hop_length": 256,
+  "content_encoder": "openai/whisper-small",
+  "source_mel_frames": 1074,
+  "tensor_files": [
+    "source/vc.safetensors",
+    "reference/s2p1_vc.safetensors"
+  ],
+  "source_audio": "source/vc.flac",
+  "reference_audio": "reference/s2p1_vc.flac",
+  "source_provenance": "source/source_s1.wav",
+  "reference_provenance": "reference/s2p1.wav"
+}
